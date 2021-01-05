@@ -1,0 +1,105 @@
+ALL (14)
+----------------------------
+Decision tree:
+Accuracy: 0.75
+MAE: 0.25
+RMSE: 0.5
+Sensitivity: 0.76
+Specificity: 0.74
+	FPR: 0.26 6 of 23
+	FNR: 0.24 9 of 38
+AUC: 0.73
+
+Random forest:
+Sensitivity: 0.88
+Specificity: 0.79
+	FPR: 0.21 6 of 28
+	FNR: 0.12 4 of 33
+AUC: 0.91
+Accuracy: 0.84
+MAE: 0.16
+RMSE: 0.4
+
+SVM:
+Sensitivity: 0.85
+Specificity: 0.75
+FPR: 0.25 7 of 28
+FNR: 0.15 5 of 33
+AUC: 0.87
+Accuracy: 0.8
+MAE: 0.2
+RMSE: 0.44
+----------------------------
+
+
+
+
+FILTERED +  oldpeak (9)
+----------------------------
+Decision tree:
+Accuracy: 0.7
+Sensitivity: 0.76
+Specificity: 0.64
+	FPR: 0.36 10 of 28
+	FNR: 0.24 8 of 33
+AUC: 0.78
+MAE: 0.3
+RMSE: 0.54
+
+Random forest:
+Accuracy: 0.75
+Sensitivity: 0.86
+Specificity: 0.67
+	FPR: 0.33 11 of 33
+	FNR: 0.14 4 of 28
+AUC: 0.87
+MAE: 0.25
+RMSE: 0.5
+
+SVM:
+Accuracy: 0.8
+Sensitivity: 0.87
+Specificity: 0.73
+	FPR: 0.27 8 of 30
+	FNR: 0.13 4 of 31
+AUC: 0.88
+MAE: 0.2
+RMSE: 0.44
+----------------------------
+
+
+
+
+
+FILTERED (8) without (oldpeak)
+----------------------------
+Decision tree:
+Accuracy: 0.64
+Sensitivity: 0.71
+Specificity: 0.57
+	FPR: 0.43 13 of 30
+	FNR: 0.29 9 of 31
+AUC: 0.75
+MAE: 0.36
+RMSE: 0.6
+
+Random forest:
+Accuracy: 0.75
+Sensitivity: 0.83
+Specificity: 0.68
+	FPR: 0.32 10 of 31
+	FNR: 0.17 5 of 30
+AUC: 0.83
+MAE: 0.25
+RMSE: 0.5
+
+SVM:
+Accuracy: 0.75
+Sensitivity: 0.81
+Specificity: 0.69
+	FPR: 0.31 9 of 29
+	FNR: 0.19 6 of 32
+AUC: 0.81
+MAE: 0.25
+RMSE: 0.5
+----------------------------
