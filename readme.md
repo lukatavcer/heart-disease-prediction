@@ -37,6 +37,7 @@ Correlations using Pearson's coefficient
 | AUC         | 0.78          | 0.78          | 0.88     |
 | MAE         | 0.3           | 0.3           | 0.2      |
 | RMSE        | 0.54          | 0.54          | 0.44     |
+
 ![alt text](img/roc_filter_oldpeak/roc_filter_oldpeak.png)
 
 #
@@ -49,4 +50,5 @@ Correlations using Pearson's coefficient
 | AUC         | 0.75          | 0.83          | 0.81     |
 | MAE         | 0.36          | 0.25          | 0.25     |
 | RMSE        | 0.6           | 0.5           | 0.5      |
+
 ![alt text](img/roc_filter/roc_filter.png)
